@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: localhost
--- Время создания: Сен 26 2016 г., 17:58
+-- Время создания: Сен 26 2016 г., 18:32
 -- Версия сервера: 5.5.50-0ubuntu0.14.04.1
 -- Версия PHP: 5.5.9-1ubuntu4.19
 
@@ -44,17 +44,17 @@ CREATE TABLE IF NOT EXISTS `records` (
 --
 
 INSERT INTO `records` (`id`, `name`, `email`, `homepage`, `text`, `ip`, `browser`, `date`, `file`) VALUES
-(1, 'Den Denchik', 'it.denchik@yandex.ru', '', '<p>\r\n	Текст1</p>\r\n', '127.0.0.1', 'Chrome', '2016-09-26 14:39:20', ''),
-(2, 'Den Denchik', 'it.denchik@yandex.ru', '', '<p>\r\n	Текст2</p>\r\n', '127.0.0.1', 'Chrome', '2016-09-26 14:40:18', ''),
-(3, 'Den Denchik', 'it.denchik@yandex.ru', '', 'Текст3\r\n', '127.0.0.1', 'Chrome', '2016-09-26 14:53:25', ''),
-(4, 'Den Denchik', 'it.denchik@yandex.ru', '', 'Текст4', '', '', '2016-09-26 14:54:46', ''),
-(5, 'Den Denchik', 'it.denchik@yandex.ru', '', 'Текст5', '', '', '2016-09-26 14:54:46', ''),
-(6, 'Den Denchik', 'it.denchik@yandex.ru', '', 'Текст6', '', '', '2016-09-26 14:56:51', ''),
-(7, 'Den Denchik', 'it.denchik@yandex.ru', '', 'Текст7', '', '', '2016-09-26 14:56:51', ''),
-(8, 'Den Denchik', 'it.denchik@yandex.ru', '', 'Текст8', '', '', '2016-09-26 14:57:07', ''),
-(9, 'Den Denchik', 'it.denchik@yandex.ru', '', 'Текст9', '', '', '2016-09-26 14:57:07', ''),
-(10, 'Den Denchik', 'it.denchik@yandex.ru', '', 'Текст9', '', '', '2016-09-26 14:58:02', ''),
-(11, 'Den Denchik', 'it.denchik@yandex.ru', '', 'Текст10', '', '', '2016-09-26 14:58:02', '');
+(1, 'Den Denchik', 'it.denchik@yandex.ru', 'git@github.com:Denchik23/top10studio.git', '<p>\r\n	Текст1</p>\r\n', '127.0.0.1', 'chrome', '2016-09-26 14:39:20', ''),
+(2, 'Den Denchik', 'it.denchik@yandex.ru', 'git@github.com:Denchik23/top10studio.git', '<p>\r\n	Текст2</p>\r\n', '127.0.0.1', 'chrome', '2016-09-26 14:40:18', ''),
+(3, 'Den Denchik', 'it.denchik@yandex.ru', 'git@github.com:Denchik23/top10studio.git', 'Текст3\r\n', '127.0.0.1', 'chrome', '2016-09-26 14:53:25', ''),
+(4, 'Den Denchik', 'it.denchik@yandex.ru', 'git@github.com:Denchik23/top10studio.git', 'Текст4', '127.0.0.1', 'chrome', '2016-09-26 14:54:46', ''),
+(5, 'Den Denchik', 'it.denchik@yandex.ru', 'git@github.com:Denchik23/top10studio.git', 'Текст5', '127.0.0.1', 'chrome', '2016-09-26 14:54:46', ''),
+(6, 'Den Denchik', 'it.denchik@yandex.ru', 'git@github.com:Denchik23/top10studio.git', 'Текст6', '127.0.0.1', 'chrome', '2016-09-26 14:56:51', ''),
+(7, 'Den Denchik', 'it.denchik@yandex.ru', 'git@github.com:Denchik23/top10studio.git', 'Текст7', '127.0.0.1', 'chrome', '2016-09-26 14:56:51', ''),
+(8, 'Den Denchik', 'it.denchik@yandex.ru', 'git@github.com:Denchik23/top10studio.git', 'Текст8', '127.0.0.1', 'chrome', '2016-09-26 14:57:07', ''),
+(9, 'Den Denchik', 'it.denchik@yandex.ru', 'git@github.com:Denchik23/top10studio.git', 'Текст9', '127.0.0.1', 'chrome', '2016-09-26 14:57:07', ''),
+(10, 'Den Denchik', 'it.denchik@yandex.ru', 'git@github.com:Denchik23/top10studio.git', 'Текст9', '127.0.0.1', 'chrome', '2016-09-26 14:58:02', ''),
+(11, 'Den Denchik', 'it.denchik@yandex.ru', 'git@github.com:Denchik23/top10studio.git', 'Текст10', '127.0.0.1', 'chrome', '2016-09-26 14:58:02', '');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
